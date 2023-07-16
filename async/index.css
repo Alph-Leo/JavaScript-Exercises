@@ -1,0 +1,27 @@
+.outer-container {
+    border: 5px solid yellow;
+    height: 100%;
+}
+
+.inner-container {
+    border: solid purple;
+    margin: 25px;
+    height: 270;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(red, green, blue, yellow);
+}
+
+.quote-container {
+    border: 1px solid blue;
+    width: 50%;
+}
+
+.quote-container p {
+    text-align: center;
+    font-size: 13px;
+    color: brown;
+}
+
